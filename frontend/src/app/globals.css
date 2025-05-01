@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Geist font faces */
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/GeistVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Global body styles */
+body {
+  font-family: 'Geist', sans-serif;
+  font-feature-settings: 'ss01';
+  background: 
+    /* Grid pattern */
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 50px) center/50px 50px, 
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 50px) center/50px 50px,
+    linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.7));
+  background-color: #FFFFFF;
+  background-blend-mode: overlay;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Container class for content layering */
+.container {
+  position: relative;
+  z-index: 1;
+}
