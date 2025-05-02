@@ -42,12 +42,12 @@ const Home: React.FC = () => {
       <div className="w-full flex justify-between items-center">
         <div className="flex items-center space-x-2 text-sm font-medium">
           <div className="w-1 h-5 bg-[#FF7F24]" />
-          <p className="text-md font-medium">Gold Price Predictor</p>
+          <p className="text-lg font-medium">Gold Price Predictor</p>
         </div>
         <a
-          href="https://github.com/hemanthk04"
+          href="https://github.com/someone-u-know/goldPrice"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           <img
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
@@ -99,8 +99,8 @@ const Home: React.FC = () => {
       </div>
       <p className="absolute bottom-6 flex space-x-1 right-8 text-sm font-medium">
         <span>By{" "}</span>
-        <a href="https://github.com/someone-u-know" target="_blank" className="underline underline-offset-4">Adarsh-King</a>
-        <a href="https://github.com/hemanthk04" target="_blank" className="underline underline-offset-4">Hemanth-Servant</a>
+        <a href="https://github.com/someone-u-know" target="_blank" rel="noreferrer noopener" className="underline underline-offset-4">Adarsh &</a>
+        <a href="https://github.com/hemanthk04" target="_blank" rel="noreferrer noopener" className="underline underline-offset-4">Hemanth</a>
       </p>
     </div>
   );
